@@ -10,18 +10,18 @@ from telethon.tl.functions.contacts import UnblockRequest
 
 DATA = {}
 ENV = """
-API_ID={}
-API_HASH={}
-BOT_TOKEN={}
+API_ID={21857983}
+API_HASH={e469e84c943ce3b8b056eb6a296f2c67}
+BOT_TOKEN={7898573730:AAGrfObcCuxn8N4LuOwb5HaMMPeusxADGWQ}
 SESSION={}
-MAIN_CHANNEL={}
-LOG_CHANNEL={}
-CLOUD_CHANNEL={}
-BACKUP_CHANNEL={}
-MONGO_SRV={}
-OWNER={}
-FORCESUB_CHANNEL={}
-FORCESUB_CHANNEL_LINK={}
+MAIN_CHANNEL={-1002288444644}
+LOG_CHANNEL={-1002497860595}
+CLOUD_CHANNEL={-1002416359314}
+BACKUP_CHANNEL={-1002322801528}
+MONGO_SRV={mongodb+srv://dhimanrajat:Y8IAGI0lVrMhjvkU@cluster0.mytkgu6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0}
+OWNER={833465134}
+FORCESUB_CHANNEL={-1002271679702}
+FORCESUB_CHANNEL_LINK={https://t.me/aboutRizzx}
 """
 
 
@@ -66,7 +66,7 @@ async def create_channel(client, title):
         r = await client(
             CreateChannelRequest(
                 title=title,
-                about="Made By https://github.com/kaif-00z/AutoAnimeBot",
+                about="Made By https://t.me/aboutRizzx ",
                 megagroup=False,
             )
         )
